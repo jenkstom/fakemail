@@ -22,6 +22,6 @@ You may need to remove the domain from other places, such as my_destination.
 Add the line in cron to your root cron script. Or whichever user.
 
 Create a folder /fakemail in you web root. Copy index.php and genfake.php into that folder.
-Update owner / permissions for foder and files.
+Update owner / permissions for foder and files. Add a password in a .htaccess file.
 
 You may need to install package postfix-mysql, php, php mysql, etc.
