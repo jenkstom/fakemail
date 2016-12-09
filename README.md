@@ -25,3 +25,9 @@ Create a folder /fakemail in you web root. Copy index.php and genfake.php into t
 Update owner / permissions for foder and files. Add a password in a .htaccess file.
 
 You may need to install package postfix-mysql, php, php mysql, etc.
+
+You can create passwords with the htpasswd program:
+
+sudo htpasswd -c /etc/apache2/passwds myuser
+
+sudo chown www-data.www-data /etc/apache2/passwds
