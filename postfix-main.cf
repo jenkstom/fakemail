@@ -1,0 +1,3 @@
+virtual_alias_domains = domain.com
+virtual_alias_maps = mysql:/etc/postfix/mysql-aliases.cf
+

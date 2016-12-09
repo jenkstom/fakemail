@@ -1,0 +1,1 @@
+* */4 * * * mysql --defaults-extra-file=/root/fakemail/database.cnf valias </root/fakemail/killfakemail.sql
